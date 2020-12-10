@@ -16,7 +16,7 @@ int main()
 
     while(1)
       {
-	    printf("\nPodaj nazwe pliku \n");
+	    printf("Podaj nazwe pliku \n");
 	    scanf("%s", NazwaPliku);
 	    plik[0] = open(NazwaPliku, O_RDONLY);
 
